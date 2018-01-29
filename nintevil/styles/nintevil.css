@@ -27,7 +27,11 @@ img {
 
 .img-container {
   background-color: grey;
-  margin: 0px 0px 40px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  width: 80%
 }
 
 text.image-desc {
