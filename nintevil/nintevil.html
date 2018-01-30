@@ -6,18 +6,45 @@
   <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <link href="styles/nintevil.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#main-form">Nintevil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#image-header">Image</a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Facts</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#nintendo-facts-1">Fact 1</a>
+          <a class="dropdown-item" href="#nintendo-facts-2">Fact 2</a>
+          <a class="dropdown-item" href="#nintendo-facts-3">Fact 3</a>
+          <a class="dropdown-item" href="#nintendo-facts-4">Fact 4</a>
+          <a class="dropdown-item" href="#nintendo-facts-5">Fact 5</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#nintendo-link">Link</a>
+      </li>
+    </ul>
+  </nav>
+
   <div class="container-fluid" id="main-form">
     <div class="row">
       <title>Nintevil</title>
       <h1 class="text-center col-12">Nintevil</h1>
-      <h4 class="text-center col-12">The console that made children silent</h4>
+      <h4 id="image-header" class="text-center col-12">The console that made children silent</h4>
       <div class="img-container">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Nintendo-Entertainment-System-NES-Console-FL.jpg"> </img>
-        <!-- <img src="https://static.pexels.com/photos/11434/Life-of-Pix-free-stock-photos-sunset-sea-light-mikewilson.jpeg"></img> -->
+        <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Nintendo-Entertainment-System-NES-Console-FL.jpg"> </img> -->
+        <img src="https://static.pexels.com/photos/11434/Life-of-Pix-free-stock-photos-sunset-sea-light-mikewilson.jpeg"></img>
         <text class="image-desc">The culprit showed above. The responsible for all those all-nighters.</text>
       </div>
       <div class="col-12 mx-auto row">
@@ -25,31 +52,33 @@
 
         <ul>
           <li class="row">
-            <div class="font-weight-bold mx-auto col-3">Time for yourself</div>
+            <div id="nintendo-facts-1" class="font-weight-bold mx-auto col-3">Time for yourself</div>
             <p class="mx-auto col-9">Because of this devil machine, your kid won't always be sticking to you like syrup</p>
           </li>
           <li class="row">
-            <div class="font-weight-bold mx-auto col-3">No argumentation</div>
+            <div id="nintendo-facts-2" class="font-weight-bold mx-auto col-3">No argumentation</div>
             <p class="mx-auto col-9">Your kid will easily be negociated if you toss in more time to play with the machine. It will make him easy prey.</p>
           </li>
           <li class="row">
-            <div class="font-weight-bold mx-auto col-3">Freaky motorskills</div>
+            <div id="nintendo-facts-3" class="font-weight-bold mx-auto col-3">Freaky motorskills</div>
             <p class="mx-auto col-9">Ever been freaked out by someone with too much dexterity? That's what's waiting for you.</p>
           </li>
           <li class="row">
-            <div class="font-weight-bold mx-auto col-3">Nerd</div>
+            <div id="nintendo-facts-4" class="font-weight-bold mx-auto col-3">Nerd</div>
             <p class="mx-auto col-9">Your kid will only hangout with fellow nerdy friends. You want your kid to be cool, don't you?</p>
           </li>
           <li class="row">
-            <div class="font-weight-bold mx-auto col-3">Scatterbrain killer</div>
+            <div id="nintendo-facts-5" class="font-weight-bold mx-auto col-3">Scatterbrain killer</div>
             <p class="mx-auto col-9">A kid that can focus is ill-prepared for common grunt work in a big business.</p>
           </li>
         </ul>
 
-        <h5>This twisted evil is believed to have created countless thefts, assaults and murders across the world.</h5>
-        <h6>If you want to assess the dark magic by yourself, get yourself a modern product of theirs :
-          <a href="https://www.nintendo.com/">Nintevil</a>
-        </h6>
+        <div id="nintendo-link">
+          <h5>This twisted evil is believed to have created countless thefts, assaults and murders across the world.</h5>
+          <h6>If you want to assess the dark magic by yourself, get yourself a modern product of theirs :
+            <a href="www.nintendo.com">Nintevil</a>
+          </h6>
+        </div>
       </div>
     </div>
   </div>

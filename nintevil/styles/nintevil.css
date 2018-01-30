@@ -1,6 +1,7 @@
 body {
   padding: 60px;
   font-family: Orbitron;
+  position: relative;
 }
 
 #main-form {
@@ -29,7 +30,8 @@ img {
   background-color: grey;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  padding: 10px;
   display: block;
   width: 80%
 }
@@ -51,4 +53,14 @@ ul
 .block
 {
   display: block;
+}
+
+#image-header
+{
+  margin-bottom: 40px;
+}
+
+i
+{
+  margin-right: 4px;
 }
